@@ -15,10 +15,16 @@ git pull するときは git のアクセストークンの設定が必要で少
 https://cns-guide.sfc.keio.ac.jp/2023/CNSguide2023.pdf
 CNSサーバーのところを読んでください
 
-
-Githubに使うSoftware：GitHub　Desktop
-
-software使わない場合
-Gitに関する命令
+# GitHubに関して
+Githubに使うSoftware：GitHub Desktop
 GitHubからクローンするとき
-git clone　＋　ｓｓｈ
+git clone https://github.com/dafumiya-lab/website.git
+
+自分の端末でコードの修正完了して、GitHubにpushするとき
+
+GitHub Desktopからcommit to main(ちゃんとコメントを書きましょう)　その次にpush origin
+(ソフト使えたくないならそれでも大丈夫です)
+
+リモートログインしたあと、領域：/pub/WWW/dafumiya/にアクセス、GitHubから修正後のバージョンをpullする　git pull origin main
+   
+# HTMLに関して
